@@ -3,7 +3,8 @@
 ShenAleph
 ===
 
-This is the WP theme for Shenandoah vol 68, issue 2.
+This is the WP theme for Shenandoah vol 69, issue 2, cloned from
+Shenandoah vol 68, issue 2 theme.
 
 This theme is based on the starter theme called `_s`, or `underscores`.
 
