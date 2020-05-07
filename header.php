@@ -31,7 +31,7 @@
 				</div>
 				<div class="row">
 		<div class="col-md-10 offset-md-1">
-			<p id="typelogo"><a href="https://shenandoahLiterary.org/691/">Shenandoah</a></p>
+			<p id="typelogo"><a href="https://shenandoahLiterary.org/692/">Shenandoah</a></p>
 		</div>
 		</div>
 		<div class="row">
