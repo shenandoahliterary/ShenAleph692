@@ -71,12 +71,12 @@ foreach ($authornames as $author_id=>$author_lastname) { ?>
 				);
 				?>
 				<?php
-				$poetry_loop_single = new WP_Query($args);
+				$fiction_loop_single = new WP_Query($args);
 
 				$i = 0;
 				//open paragraph for title(s)/author
 				echo "<p>";
-					while ($poetry_loop_single->have_posts()) : 				$poetry_loop_single->the_post();
+					while ($fiction_loop_single->have_posts()) : 				$fiction_loop_single->the_post();
 					//for each author, print title, title, author
 					?>
 
