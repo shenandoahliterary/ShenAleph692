@@ -14,6 +14,7 @@
 	<header class="entry-header">
 		<?php
 		if ( is_singular() ) :
+			$custom_fields = get_post_custom();
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
@@ -23,6 +24,12 @@
 			?>
 			<div class="entry-meta">
 				<!-- add byline -->
+				<?php
+				$subtitle = $custom_fields['subtitle'];
+				if (! empty($subtitle)) {
+					echo "<em>$subtitle[0]</em> <br />";
+				}
+				?>
 				<p class="workAuthorByline"><?php
 /* should add to filter: if filter is empty then only the_author_meta; if filter is not empty, then all authors from filter */
 				if (in_category('feature')) {
@@ -67,7 +74,6 @@
 	<section class="workAuthorBio"><?php the_author_meta('description') ?></section>
 	<!-- add 2nd author bio -->
 	<?php
-	$custom_fields = get_post_custom();
 
 	$my_custom_field = $custom_fields['second_author'];
 
