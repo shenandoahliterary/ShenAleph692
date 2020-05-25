@@ -15,6 +15,10 @@
 		<?php
 		if ( is_singular() ) :
 			$custom_fields = get_post_custom();
+			$prize = $custom_fields['prize'];
+			if (! empty($prize)) {
+				echo "<em>$prize[0]</em> <br />";
+			}
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
 			the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );
