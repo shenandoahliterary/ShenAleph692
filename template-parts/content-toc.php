@@ -15,7 +15,7 @@ $upload_path =  $uploads['baseurl'];
 </div>
 <div class="row volumeIssue">
 </div>
-<p class="text-right art-credit"><a href="https://www.xaviertavera.com/" target="_blank">Xavier Tavera, from <em>Borderlands</em></a></p>
+<p class="text-right art-credit">“Askew / Longhorn Beetle in Periwinkle,” oil on wood by <a href="https://www.idafloreak.com/" target="_blank">Ida Floreak</a></p>
 </section>
 
 <section class="container TOCsection">
