@@ -17,7 +17,7 @@
 			$custom_fields = get_post_custom();
 			$prize = $custom_fields['prize'];
 			if (! empty($prize)) {
-				echo "<em>$prize[0]</em> <br />";
+				echo "<span class='prize'><em>$prize[0]</em></span>";
 			}
 			the_title( '<h1 class="entry-title">', '</h1>' );
 		else :
@@ -31,7 +31,7 @@
 				<?php
 				$subtitle = $custom_fields['subtitle'];
 				if (! empty($subtitle)) {
-					echo "<em>$subtitle[0]</em> <br />";
+					echo "<span class='subtitle'>$subtitle[0]</span> <br />";
 				}
 				?>
 				<p class="workAuthorByline"><?php

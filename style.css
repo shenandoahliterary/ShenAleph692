@@ -471,6 +471,12 @@ footer hr {
 margin-top: 5.5rem;
 }
 
+.prize, .subtitle{
+	font-size: 1.3rem;
+	margin-bottom: .25rem;
+	line-height: 1.1; /* was 1.1*/
+	padding-bottom: 0;
+}
 
 
 .page-contributors h1{
