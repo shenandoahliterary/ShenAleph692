@@ -777,7 +777,7 @@ margin-bottom: 2rem;
 
 /* class created for translated poetry that has an epigraph, see Closed Manor in vol 69, no. 2 */
 .adjust-byline-up {
-	margin-top: 0px !important;
+	margin-top: -32px !important;
 }
 
 
