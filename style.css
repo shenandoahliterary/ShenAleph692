@@ -774,6 +774,13 @@ margin-bottom: 2rem;
 	text-indent: 0!important;
 }
 
+
+/* class created for translated poetry that has an epigraph, see Closed Manor in vol 69, no. 2 */
+.adjust-byline-up {
+	margin-top: 0px !important;
+}
+
+
  .entry-content + p {
 	text-indent: 0!important;
 }
@@ -1419,6 +1426,9 @@ font-size: 1.3rem;
 	clear: both;
 	margin: 0 0 1.5em;
 }
+
+
+
 
 /*--------------------------------------------------------------
 ## Comments
