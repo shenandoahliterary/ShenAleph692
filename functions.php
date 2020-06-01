@@ -304,7 +304,8 @@ function shenAleph_filter_second_author(){
 										 'meta_compare' => 'LIKE'
 									 );
 			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
-					$author_loop = new WP_User_Query($args_authors( 'number' => 2));
+			$author_loop = new WP_User_Query($args_authors);
+					//$author_loop = new WP_User_Query($args_authors( 'number' => 2));
 					$author_names = $author_loop->get_results();
 
 
