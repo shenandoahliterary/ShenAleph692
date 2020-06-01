@@ -301,11 +301,11 @@ function shenAleph_filter_second_author(){
 										 'meta_key' => "last_name",
 										 //retrieve specific value b
 										 'meta_value' => "$my_custom_field[0]",
-										 'meta_compare' => 'LIKE'
+										 'meta_compare' => 'LIKE',
+										 'number' => 2
 									 );
 			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
-			$author_loop = new WP_User_Query($args_authors);
-					//$author_loop = new WP_User_Query($args_authors( 'number' => 2));
+    			$author_loop = new WP_User_Query($args_authors);
 					$author_names = $author_loop->get_results();
 
 
