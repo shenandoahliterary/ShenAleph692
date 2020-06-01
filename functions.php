@@ -314,7 +314,7 @@ function shenAleph_filter_second_author(){
 
 						foreach ($author_names as $author_name) {
 
-							echo "$author_name->display_name $i<br />";
+							echo "$author_name->display_name <br />";
 						} //end inner foreach
 					}
 						else {echo "No authors found";}
