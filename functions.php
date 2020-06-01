@@ -269,7 +269,7 @@ if (! empty($my_custom_field)) {
 
 						foreach ($author_names as $author_name) {
 
-							echo "$author_name->display_name test<br />";
+							echo "$author_name->display_name, &nbsp;";
 						}
 					}
 						else {echo "No authors found";}
