@@ -255,7 +255,7 @@ if (! empty($my_custom_field)) {
 									 // 'user_login'   => 'lillywimberly'
 										 'meta_key' => "last_name",
 										 //retrieve specific value b
-										 'meta_value' => "$my_custom_field[$value]",
+										 'meta_value' => "$my_custom_field",
 										 'meta_compare' => 'LIKE',
 										 'orderby' => 'meta_value',
 										 'order' => 'ASC'
@@ -269,7 +269,7 @@ if (! empty($my_custom_field)) {
 
 						foreach ($author_names as $author_name) {
 
-							echo "$author_name->display_name <br />";
+							echo "$author_name->display_name test<br />";
 						}
 					}
 						else {echo "No authors found";}
