@@ -255,7 +255,7 @@ if (! empty($my_custom_field)) {
 									 // 'user_login'   => 'lillywimberly'
 										 'meta_key' => "last_name",
 										 //retrieve specific value b
-										 'meta_value' => "$my_custom_field[1]",
+										 'meta_value' => "$my_custom_field[0]",
 										 'meta_compare' => 'LIKE',
 										 'orderby' => 'meta_value',
 										 'order' => 'ASC'
