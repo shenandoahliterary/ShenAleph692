@@ -291,7 +291,7 @@ function shenAleph_filter_second_author(){
 
 	if (! empty($my_custom_field)) {
 
-
+//need to reset value so that script sees second_author value for more than two authors
 		foreach ( $my_custom_field as $key => $value ) {
 		//	echo $key . " => " . $value . "<br />";
 
@@ -304,7 +304,7 @@ function shenAleph_filter_second_author(){
 										 'meta_compare' => 'LIKE'
 									 );
 			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
-					$author_loop = new WP_User_Query($args_authors);
+					$author_loop = new WP_User_Query($args_authors( 'number' => 2));
 					$author_names = $author_loop->get_results();
 
 
@@ -313,12 +313,12 @@ function shenAleph_filter_second_author(){
 						foreach ($author_names as $author_name) {
 
 							echo "$author_name->display_name <br />";
-						}
+						} //end inner foreach
 					}
 						else {echo "No authors found";}
 
 
-			}
+			} //end outer foreach
   }
 }
 
