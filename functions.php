@@ -287,7 +287,7 @@ function shenAleph_filter_second_author(){
 	$custom_fields = get_post_custom();
 
 	$my_custom_field = $custom_fields['second_author'];
-	echo "auth: $my_custom_field[1]";
+	echo "auth: $my_custom_field[]";
 
 	if (! empty($my_custom_field)) {
 
