@@ -287,12 +287,13 @@ function shenAleph_filter_second_author(){
 	$custom_fields = get_post_custom();
 
 	$my_custom_field = $custom_fields['second_author'];
-//	echo "auth: $my_custom_field[]";
-echo json_encode($my_custom_field);
+//	echo "auth: $my_custom_field[1]";
+// for debugging: echo array as json
+//echo json_encode($my_custom_field);
 
 	if (! empty($my_custom_field)) {
 
-//need to reset value so that script sees second_author value for more than two authors
+		$i = 0;
 		foreach ( $my_custom_field as $key => $value ) {
 		//	echo $key . " => " . $value . "<br />";
 
@@ -318,7 +319,7 @@ echo json_encode($my_custom_field);
 					}
 						else {echo "No authors found";}
 
-
+						$i++;
 			} //end outer foreach
   }
 }
