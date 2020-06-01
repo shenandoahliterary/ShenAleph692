@@ -302,7 +302,7 @@ function shenAleph_filter_second_author(){
 									 // 'user_login'   => 'lillywimberly'
 										 'meta_key' => "last_name",
 										 //retrieve specific value b
-										 'meta_value' => "$my_custom_field",
+										 'meta_value' => "$my_custom_field[$i]",
 										 'meta_compare' => 'LIKE'
 									 );
 			//	echo '<pre>'; print_r($args_authors); echo '</pre>';
