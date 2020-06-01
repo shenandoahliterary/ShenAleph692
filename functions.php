@@ -242,7 +242,7 @@ function shenAleph_filter_authors(){
 	$custom_fields = get_post_custom();
 
 	$my_custom_field = $custom_fields['author_lastname'];
-	echo echo json_encode($my_custom_field);
+	echo json_encode($my_custom_field);
 
 if (! empty($my_custom_field)) {
 
