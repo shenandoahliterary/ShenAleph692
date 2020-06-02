@@ -40,7 +40,7 @@
 				<span class="">Volume 69, Number 2 &middot; Spring 2020</span>
 				</div>
 		</div>
-			<div class="col-3">
+			<div class="col-5">
 				<div class="shen-nav d-flex flex-column flex-sm-row" >
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/about/">About</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/issues/">Issues</a>
