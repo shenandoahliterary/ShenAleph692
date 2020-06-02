@@ -447,6 +447,10 @@ textarea {
 	color: #181818;
 }
 
+.metadata-row {
+	max-width: 1269px;
+}
+
 footer hr {
 	background-color: #181818 !important;
 }
