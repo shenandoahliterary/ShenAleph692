@@ -34,7 +34,7 @@
 			<p id="typelogo"><a href="https://shenandoahLiterary.org/692/">Shenandoah</a></p>
 		</div>
 		</div>
-		<div class="row d-flex justify-content-between">
+		<div class="row">
 			<div class="col-md-5 offset-md-1">
 				<div class="volumeIssueBanner">
 				<span class="">Volume 69, Number 2 &middot; Spring 2020</span>
