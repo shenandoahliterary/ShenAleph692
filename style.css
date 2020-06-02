@@ -434,6 +434,7 @@ textarea {
 		text-transform: uppercase;
 		margin:0 0 -3rem 0;
 		/*text-align: center;*/
+		max-width: 1275px;
 
 }
 
