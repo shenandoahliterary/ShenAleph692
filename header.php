@@ -34,13 +34,13 @@
 			<p id="typelogo"><a href="https://shenandoahLiterary.org/692/">Shenandoah</a></p>
 		</div>
 		</div>
-		<div class="row metadata-row d-flex justify-content-end">
+		<div class="row metadata-row d-flex justify-content-between">
 			<div class="col offset-md-1">
 				<div class="volumeIssueBanner">
 				<span class="">Volume 69, Number 2 &middot; Spring 2020</span>
 				</div>
 		</div>
-			<div class="col-5">
+			<div class="col-5 justify-content-end">
 				<div class="shen-nav d-flex flex-column flex-sm-row" >
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/about/">About</a>
 					<a class="nav-item nav-link" href="https://shenandoahliterary.org/issues/">Issues</a>
