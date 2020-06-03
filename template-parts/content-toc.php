@@ -498,7 +498,13 @@ if ($query->have_posts()) :
 		   <!-- <img class="card-img-top" src="..." alt="Card image cap"> -->
 			 <?php  the_post_thumbnail( 'full', array( 'class'=>'card-img img-fluid' ) );  ?>
 		    <div class="card-body">
-					<h5 class="card-title">test<?php echo get_the_category();	 ?></h5>
+					<h5 class="card-title">test<?php
+					$categories = get_the_category();
+
+					if ( ! empty( $categories ) ) {
+					    echo esc_html( $categories[0]->name );
+					}
+					 	 ?></h5>
 				<p class="card-text"><?php	the_excerpt() ?></p>
 			</div>
 		</a>
