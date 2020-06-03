@@ -104,11 +104,16 @@ $my_custom_field = $custom_fields['translator_lastname'];
 
     }
 }
-
+//extra content that might appears below bio
+$extra_content = $custom_fields['extra_content'];
+if (! empty($extra_content)) {
+	echo "$extra_content[0] <br />";
+}
 ?>
 </div>
 </section>
 <!-- end translatorBio  -->
+
 
 	<footer class="entry-footer">
 		<?php shenAleph_entry_footer(); ?>
