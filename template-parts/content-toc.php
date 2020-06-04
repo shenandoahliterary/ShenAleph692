@@ -485,7 +485,8 @@ if ($query->have_posts()) :
 		<div class="card-group">
 			<?php
 			$args = array(
-			    'category_name'         => 'feature',
+			  //  'category_name'         => 'feature',
+				'category_name'         => 'Behind the Poem,Conversations,On Craft',
 
 			);
 			$category_posts = new WP_Query($args);
@@ -500,7 +501,7 @@ if ($query->have_posts()) :
 		    <div class="card-body">
 					<h5 class="card-title"><?php
 					$categories = get_the_category();
-    
+
 					if ( ! empty( $categories ) ) {
 					    echo esc_html( $categories[0]->name );
 					}
