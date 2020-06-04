@@ -500,10 +500,12 @@ if ($query->have_posts()) :
 		    <div class="card-body">
 					<h5 class="card-title"><?php
 					$categories = get_the_category();
-
+      /* uncomment below if category should be linked
 					if ( ! empty( $categories ) ) {
 					    echo esc_html( $categories[0]->name );
 					}
+			*/
+						echo $categories[0];
 					 	 ?></h5>
 				<p class="card-text"><?php	the_excerpt() ?></p>
 			</div>
