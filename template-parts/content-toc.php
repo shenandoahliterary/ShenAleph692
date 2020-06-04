@@ -505,7 +505,7 @@ if ($query->have_posts()) :
 					    echo esc_html( $categories[0]->name );
 					}
 			*/
-						echo $categories[0];
+						
 					 	 ?></h5>
 				<p class="card-text"><?php	the_excerpt() ?></p>
 			</div>
