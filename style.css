@@ -1084,7 +1084,7 @@ footer {
 
 /* disable link style for excerpt text in cards */
 
-a:hover .excerpt-text {
+.excerpt-text {
 	text-decoration: none;
 }
 
