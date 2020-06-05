@@ -1081,6 +1081,14 @@ footer {
 .card-img {
 	overflow: hidden !important;
 }
+
+/* disable link style for excerpt text in cards */
+
+a:hover .excerpt-text {
+	text-decoration: none;
+}
+
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
