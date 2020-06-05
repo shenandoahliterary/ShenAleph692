@@ -1085,10 +1085,13 @@ footer {
 /* disable link style for excerpt text in cards */
  .card a:hover span.excerpt-text
  {
-	text-decoration: none !important;
+
 	color: #181818 !important;
 }
 
+.card a:hover {
+	text-decoration: none !important;
+}
 
 /*--------------------------------------------------------------
 # Forms
