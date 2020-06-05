@@ -1083,9 +1083,12 @@ footer {
 }
 
 /* disable link style for excerpt text in cards */
+/* .card a:hover span.excerpt-text */
 
-.card a:hover span.excerpt-text {
-	text-decoration: none ;
+[@id="main"]/section[4]/div/div[1]/a/div/p[3]/span
+ {
+	text-decoration: none !important;
+	color: #181818;
 }
 
 
